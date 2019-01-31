@@ -180,20 +180,17 @@ border-radius: 50%;
 		<div class="skill-grids">
 					<div class="col-md-2 col-md-offset-1 skills-grid text-center">
 						<div class="circle" id="circles-1"></div>
-						<p>HTML 5</p>
+						<p>HTML</p>
 					</div>
 					<div class="col-md-2 col-md-offset-1 skills-grid text-center">
 						<div class="circle" id="circles-2"></div>
-						<p>CSS 3</p>
+						<p>CSS</p>
 					</div>
 					<div class="col-md-2 col-md-offset-1 skills-grid text-center">
 						<div class="circle" id="circles-3"></div>
-						<p>JavaScript</p>
+						<p>C,C++,Java</p>
 					</div>
-					<div class="col-md-2 col-md-offset-1 skills-grid text-center">
-						<div class="circle" id="circles-4"></div>
-						<p>JQuery</p>
-					</div>
+					
 					<div class="clearfix"> </div>
 				 <script type="text/javascript" src="js/circles.js"></script>
 					         <script>
@@ -230,7 +227,7 @@ border-radius: 50%;
 								}
 								for (var i = 3; i <= 3; i++){
 									var child = document.getElementById('circles-' + i),
-										percentage = 60;
+										percentage = 75;
 										
 									Circles.create({
 										id:         child.id,
@@ -242,21 +239,7 @@ border-radius: 50%;
 										colors:     colors[i - 1]
 									});
 								}
-								for (var i = 4; i <= 4; i++){
-									var child = document.getElementById('circles-' + i),
-										percentage = 55;
-										
-									Circles.create({
-										id:         child.id,
-										percentage: percentage,
-										radius:     80,
-										width:      10,
-										number:   percentage / 1,
-										text:       '%',
-										colors:     colors[i - 1]
-									});
-								}
-						
+								
 				</script>
 		</div>
 	</div>	
